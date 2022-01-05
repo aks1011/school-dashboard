@@ -1,0 +1,49 @@
+.menu-base {
+  background: #322a57;
+  height: 100vh;
+}
+
+.logo {
+  text-align: center;
+  font-size: 5rem;
+  color: #f2f0f5;
+  padding: 20px;
+}
+
+.logo i {
+  text-shadow: 0.025em 0.025em 0 #322a57;
+}
+
+.light-layer {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  width: 160px;
+  background: #5f5490;
+  border-radius: 24px 0 0 24px;
+}
+
+.light-layer ul {
+  margin-top: 20px;
+}
+
+.light-layer ul li {
+  font-size: 0.7rem;
+  list-style: none;
+  color: #f2f0f5;
+  background: transparent;
+  padding: 14px 20px;
+  margin-bottom: 12px;
+  line-height: 8px;
+  border-radius: 36px 0 0 36px;
+}
+
+.light-layer ul li.active {
+  color: #322a57;
+  background: #f2f0f5;
+}
+
+a:active {
+  font-weight: 900;
+}

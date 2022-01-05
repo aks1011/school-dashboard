@@ -1,0 +1,51 @@
+.toppers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  grid-gap: 16px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.topper {
+  border-radius: 8px;
+  color: #e3dfef;
+}
+
+.picture img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #231b4a;
+  padding: 3px;
+  margin: 8px 0;
+  box-shadow: 0 0 4px #231b4a;
+}
+.name {
+  font-size: 0.8rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.percentage {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+.rank {
+  margin: 10px 20px;
+  padding: 4px;
+  color: #231b4a;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.topper:nth-child(1) {
+  background: #77608b;
+}
+.topper:nth-child(2) {
+  background: #35a25a;
+}
+.topper:nth-child(3) {
+  background: #f6a097;
+}
