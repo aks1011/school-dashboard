@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./info.css";
+import Loader from "./../loader";
 
 class Info extends Component {
   state = { loading: true, data: null };
@@ -14,7 +15,9 @@ class Info extends Component {
   render() {
     if (this.state.loading) {
       return (
-        <h1 style={{ textAlign: "center", marginTop: "50px" }}>Loading...</h1>
+        <div style={{ position: "relative" }}>
+          <Loader />
+        </div>
       );
     }
     if (!this.state.loading && this.state.data) {
