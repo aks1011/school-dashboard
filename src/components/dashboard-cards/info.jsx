@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./info.css";
-import Loader from "./../loader";
+import Loader from "../loader";
 
 class Info extends Component {
   state = { loading: true, data: null };
